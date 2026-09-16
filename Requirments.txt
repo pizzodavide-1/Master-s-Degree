@@ -1,0 +1,27 @@
+# Core
+torch>=2.1
+torchvision>=0.16
+transformers>=4.38
+sentencepiece>=0.1.99      # tokenizer for multilingual CLIP/BLIP
+accelerate>=0.27
+
+# Explainability
+captum>=0.7.0             # IG
+grad-cam>=1.5.0          # Grad-CAM (pytorch-grad-cam)
+
+# Data & numerics
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11              # EMD (Wasserstein distance)
+scikit-learn>=1.3
+
+# Images & plots
+Pillow>=10.0
+opencv-python>=4.8
+matplotlib>=3.7
+seaborn>=0.13
+
+# Notebooks & utils
+jupyterlab>=4.0
+ipykernel>=6.25
+tqdm>=4.66
